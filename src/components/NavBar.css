@@ -91,6 +91,7 @@ body {
   }
   .nav-elements.active {
     width: 270px;
+    height: 100vh;
   }
   .nav-elements ul {
     display: flex;
@@ -101,4 +102,4 @@ body {
     margin-right: unset;
     margin-top: 22px;
   }
-}/*# sourceMappingURL=navbar.css.map */
+}/*# sourceMappingURL=NavBar.css.map */
