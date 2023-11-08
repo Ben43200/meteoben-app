@@ -21,7 +21,7 @@ const Navbar = () => {
                 <div className="logo">
                     {/* <Brand /> */}
                     {/* <img src={logo} className='logo-1' /> */}
-                    <div className="brand">METEOBEN Dev web</div>
+                    <div className="brand">METEOBEN</div>
                 </div>
                 <div className="menu-icon" onClick={handleShowNavbar}>
                     <Hamburger />
