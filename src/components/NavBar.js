@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 // import { ReactComponent as Hamburger } from '../../assets/icons/hamburger.svg'
 // import { ReactComponent as Brand } from '../logo.svg'
 // import { logo as Brand } from '../logo.jpg'
-import logo from '../logo.svg'
+import React from 'react'
 
 import './navbar.scss'
 import { Squash as Hamburger } from 'hamburger-react'
