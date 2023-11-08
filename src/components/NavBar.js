@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 import logo from '../logo.svg'
 
 import './navbar.scss'
-import { Divide as Hamburger } from 'hamburger-react'
+import { Squash as Hamburger } from 'hamburger-react'
 
 const Navbar = () => {
     const [showNavbar, setShowNavbar] = useState(false)
