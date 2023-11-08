@@ -21,7 +21,7 @@ const Navbar = () => {
                 <div className="logo">
                     {/* <Brand /> */}
                     {/* <img src={logo} className='logo-1' /> */}
-                    <div className="brand">METEOBEN</div>
+                    <div className="brand">METEOBEN Dev web</div>
                 </div>
                 <div className="menu-icon" onClick={handleShowNavbar}>
                     <Hamburger />
@@ -31,18 +31,18 @@ const Navbar = () => {
                         <li>
                             <NavLink to="/">Home</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to="/blog">Office</NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink to="/competences">Compétences</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to="/news">News</NavLink>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                             <NavLink to="/about">About</NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink to="/contact">Contact</NavLink>
                         </li>
