@@ -4,7 +4,6 @@
 
 #root > main {
   grid-area: main;
-  height: 100vh;
 }
 
 #root > footer {
