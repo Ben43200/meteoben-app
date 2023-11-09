@@ -83,7 +83,6 @@ header {
     cursor: pointer;
   }
   .nav-elements {
-    position: absolute;
     right: 0;
     top: 60px;
     background-color: #fef7e5;
@@ -92,6 +91,7 @@ header {
     transition: all 0.3s ease-in;
     overflow: hidden;
     z-index: 100;
+    position: fixed;
   }
   .nav-elements.active {
     width: 270px;
