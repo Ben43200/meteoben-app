@@ -81,6 +81,12 @@ header {
     margin-right: 30px;
   }
 }
+@media (max-width: 768px) {
+  .nav-elements ul li {
+    margin-right: 30px;
+    padding-left: 10px;
+  }
+}
 
 @media (max-width: 600px) {
   .menu-icon {
