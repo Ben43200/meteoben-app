@@ -97,6 +97,7 @@ header {
   .nav-elements.active {
     width: 200px;
     height: 100vh;
+    opacity: 0.95;
   }
   .nav-elements ul {
     display: flex;
