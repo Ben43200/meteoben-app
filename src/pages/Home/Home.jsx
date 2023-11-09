@@ -30,7 +30,8 @@ export default function Home() {
                     Je peux vous aider dans vos démarches.
                 </p>
                 <p>Je suis développeur web alors votre site sera unique, il est fait à l'aide de lignes de code uniquement, je n'utilise pas d'outils tel que Wordpress par exemple.</p>
-                <p>Chaque projet est différent et ne sera pas appréhendé de la même manière, c'est pourquoi, je vous propose
+                <p>Chaque projet est différent et ne sera pas appréhendé de la même manière,il y a des projets simples et d'autres qui demandent beaucoup plus de travail,
+                    c'est pourquoi, je vous propose
                     dès à présent de prendre contact avec moi afin qu'on en discute.</p>
             </div>
 

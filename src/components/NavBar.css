@@ -16,6 +16,10 @@ body {
   height: 100%;
 }
 
+header {
+  box-shadow: 10px 5px 5px grey;
+}
+
 .navbar {
   height: 70px;
   background-color: #fef7e5;
@@ -102,4 +106,4 @@ body {
     margin-right: unset;
     margin-top: 22px;
   }
-}/*# sourceMappingURL=navbar.css.map */
+}/*# sourceMappingURL=NavBar.css.map */
