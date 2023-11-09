@@ -13,10 +13,10 @@ export default function Home() {
         <Navbar />
         <main>
             <h1>Meteoben</h1>
-            <h2>Développeur Web</h2>
+            <h2>Développeur Web en biovallée de la Drôme</h2>
             <div className="main-container">
                 <p>Bienvenue sur mon site</p>
-                <p>Je me présente, je m'appelle Benjamin, j'ai suivi une formation de développeur web pendant laquelle j'ai eu à réaliser différent projets et que j'ai terminé avec succés.
+                <p>Je me présente, je m'appelle Benjamin, j'ai suivi une formation de développeur web pendant laquelle j'ai eu à réaliser différents projets et que j'ai terminé avec succés.
                     J'utilise différents langages de programmation tel que le html, le css , et le javascript, j'ai égalmement des compétences en Node.js et en React.
                     Je continue à me former tout les jours en me tenant au courant des nouveautés concernant les différents langages de programmation.</p>
                 <p>J'ai crée ma micro entreprise au début de ce mois de novembre 2023, j'ai déjà fait par ailleurs un projet pour une association.</p>
