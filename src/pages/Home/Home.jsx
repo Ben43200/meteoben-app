@@ -3,7 +3,7 @@
 // import background from "../../images/background-banner.png";
 // import React, { useEffect, useState } from "react";
 import React from "react";
-import Navbar from "../components/NavBar";
+import Navbar from "../../components/NavBar";
 // import Footer from "../components/Footer";
 
 
@@ -26,7 +26,7 @@ export default function Home() {
                 des développeurs acheter le nom de domaine pour des clients et ne pas les restituer si ils ne voulaient pas poursuivre leur partenariat par exemple.
                 Je peux vous aider dans vos démarches.
             </p>
-            <p>N'éhisitez surtout pas à prendre contact avec moi afin de discuter de votre projet</p>
+            <p>N'éhisitez surtout pas à prendre contact avec moi afin de discuter de votre projet.</p>
         </main>
         {/* <Footer /> */}
     </div>

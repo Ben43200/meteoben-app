@@ -21,7 +21,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 // import About from "./pages/About/About";
 // import FicheLogement from "./pages/Fichelogement/FicheLogement";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Error from "./pages/Error/Error";
 // import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer";
