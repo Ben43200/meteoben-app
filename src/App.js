@@ -1,21 +1,21 @@
-import './App.css';
-import React from 'react';
-import './css/styles.scss';
-import './css/common.scss'
+// import './App.css';
+// import React from 'react';
+// import './css/styles.scss';
+// import './css/common.scss'
 
 
-import { BrowserRouter } from 'react-router-dom'
-// import Navbar from './components/NavBar'
-import Home from './pages/Home'
-// import DemoCarousel from './components/DemoCarousel';
+// import { BrowserRouter } from 'react-router-dom'
+// // import Navbar from './components/NavBar'
+// import Home from './pages/Home'
+// // import DemoCarousel from './components/DemoCarousel';
 
-const App = () => {
-  return (
-    <BrowserRouter>
-      <Home />
-      {/* <DemoCarousel /> */}
-    </BrowserRouter>
-  )
-}
+// const App = () => {
+//   return (
+//     <BrowserRouter>
+//       <Home />
+//       {/* <DemoCarousel /> */}
+//     </BrowserRouter>
+//   )
+// }
 
-export default App;
+// export default App;
