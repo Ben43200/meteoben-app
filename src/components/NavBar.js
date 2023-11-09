@@ -19,11 +19,11 @@ const Navbar = () => {
         <header>
             <nav className="navbar">
                 <div className="container">
-                    <div className="logo">
-                        {/* <Brand /> */}
-                        {/* <img src={logo} className='logo-1' /> */}
-                        <div className="brand">METEOBEN</div>
-                    </div>
+                    {/* <div className="logo"> */}
+                    {/* <Brand /> */}
+                    {/* <img src={logo} className='logo-1' /> */}
+                    <div className="brand">METEOBEN</div>
+                    {/* </div> */}
                     <div className="menu-icon" onClick={handleShowNavbar}>
                         <Hamburger />
                     </div>
@@ -32,18 +32,9 @@ const Navbar = () => {
                             <li>
                                 <NavLink to="/">Home</NavLink>
                             </li>
-                            {/* <li>
-                            <NavLink to="/blog">Office</NavLink>
-                        </li> */}
                             <li>
                                 <NavLink to="/competences">Compétences</NavLink>
                             </li>
-                            {/* <li>
-                            <NavLink to="/news">News</NavLink>
-                        </li> */}
-                            {/* <li>
-                            <NavLink to="/about">About</NavLink>
-                        </li> */}
                             <li>
                                 <NavLink to="/contact">Contact</NavLink>
                             </li>
