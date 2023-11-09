@@ -62,12 +62,20 @@
 #root {
   display: grid;
   grid-template-areas:
-    "navba"
+    "navbar"
     "main "
     "footer ";
-  font-family: Arial, Verdana, sans-serif;
+  // font-family: Arial, Verdana, sans-serif;
   //   row-gap: 20px;
   grid-template-rows: auto 1fr auto;
-  grid-template-columns: auto;
+  // grid-template-columns: auto;
   height: 100vh;
+  @include media(desktop) {
+    grid-template-areas:
+      " . navbar ."
+      "  . main .  "
+      "footer footer footer ";
+    grid-template-columns: 1fr 1240px 1fr;
+    //   }
+  }
 }

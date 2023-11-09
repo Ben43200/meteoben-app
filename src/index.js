@@ -17,12 +17,12 @@
 
 
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 // import About from "./pages/About/About";
 // import FicheLogement from "./pages/Fichelogement/FicheLogement";
 import Home from "./pages/Home";
-// import Error from "./pages/Error/Error";
+import Error from "./pages/Error/Error";
 // import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer";
 
@@ -34,10 +34,13 @@ root.render(
 
   // <React.StrictMode>
   <Router>
-    {/* <Routes> */}
-    <Home />
+    {/* <Home /> */}
 
-    {/* </Routes> */}
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="*" element={<Error />} />
+
+    </Routes>
     <Footer />
   </Router>
   // </React.StrictMode>
