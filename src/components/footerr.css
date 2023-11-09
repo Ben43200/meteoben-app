@@ -3,4 +3,8 @@ footer {
   color: white;
   height: 4rem;
   box-shadow: 10px 5px 5px grey;
+}
+
+.footer-container {
+  display: flex;
 }/*# sourceMappingURL=footerr.css.map */
