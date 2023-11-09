@@ -23,8 +23,8 @@ header {
 .navbar {
   height: 70px;
   background-color: #fef7e5;
-  position: relative;
   width: 100vw;
+  position: fixed;
 }
 
 .logo-1 {
@@ -95,7 +95,7 @@ header {
     position: fixed;
   }
   .nav-elements.active {
-    width: 270px;
+    width: 200px;
     height: 100vh;
   }
   .nav-elements ul {
