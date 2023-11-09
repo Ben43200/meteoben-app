@@ -13,6 +13,7 @@ export default function Home() {
         <Navbar />
         <main>
             <h1>Meteoben</h1>
+            <h2>Développeur Web</h2>
             <div className="main-container">
                 <p>Bienvenue sur mon site</p>
                 <p>Je me présente, je m'appelle Benjamin, j'ai suivi une formation de développeur web pendant laquelle j'ai eu à réaliser différent projets et que j'ai terminé avec succés.

@@ -71,6 +71,7 @@ body {
   grid-template-rows: auto 1fr auto;
   // grid-template-columns: auto;
   height: 100vh;
+  row-gap: 8px;
   @include media(desktop) {
     // grid-template-areas:
     //   " . navbar ."

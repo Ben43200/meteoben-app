@@ -20,4 +20,5 @@ body {
   grid-template-areas: "navbar" "main " "footer ";
   grid-template-rows: auto 1fr auto;
   height: 100vh;
+  row-gap: 8px;
 }/*# sourceMappingURL=common.css.map */
