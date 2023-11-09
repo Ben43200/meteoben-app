@@ -22,7 +22,7 @@ export default function Home() {
                 <p>Je vous propose donc de créer votre site clé en main, je me charge de coder votre site web, il sera référencé sur google grâce au SEO que je mettrai en place et je
                     ferai en sorte qu'il soit adapté en mobile, tablette et ordinateur.
                     Les gens non avertis ne le savent pas forcément, mais le référencement est beaucoup plus efficace avec une version mobile en parallèle, car la plupart des gens utilisent
-                    leur mobile pour naviguer sur internet maintenant.
+                    leur mobile pour naviguer sur internet maintenant, et ça, google l'a bien compris.
                     Je me charge de vous louer un espace de location sur mon serveur pro pour y faire tourner votre site.
                     Je vous laisse de votre côté réserver un nom de domaine si vous en avez pas déjà un, vous restez ainsi propriétaire de votre nom de domaine, j'ai déjà vu pas le passé
                     des développeurs acheter le nom de domaine pour des clients et ne pas les restituer si ils ne voulaient pas poursuivre leur partenariat par exemple.
