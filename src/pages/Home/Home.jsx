@@ -29,7 +29,8 @@ export default function Home() {
                     des développeurs acheter le nom de domaine pour des clients et ne pas les restituer si ils ne voulaient pas poursuivre leur partenariat par exemple.
                     Je peux vous aider dans vos démarches.
                 </p>
-                <p>Chaque projet est différent et ne sera pas appréhendé de la même mainère, c'est pourquoi, je vous propose
+                <p>Je suis développeur web alors votre site sera unique, il est fait à l'aide de lignes de code uniquement, je n'utilise pas d'outils tel que Wordpress par exemple.</p>
+                <p>Chaque projet est différent et ne sera pas appréhendé de la même manière, c'est pourquoi, je vous propose
                     dès à présent de prendre contact avec moi afin qu'on en discute.</p>
             </div>
 
