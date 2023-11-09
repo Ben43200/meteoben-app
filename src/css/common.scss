@@ -71,11 +71,11 @@
   // grid-template-columns: auto;
   height: 100vh;
   @include media(desktop) {
-    grid-template-areas:
-      " . navbar ."
-      "  . main .  "
-      "footer footer footer ";
-    grid-template-columns: 1fr 1240px 1fr;
+    // grid-template-areas:
+    //   " . navbar ."
+    //   "  . main .  "
+    //   "footer footer footer ";
+    // grid-template-columns: 1fr 1240px 1fr;
     //   }
   }
 }

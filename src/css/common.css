@@ -15,10 +15,4 @@
   grid-template-areas: "navbar" "main " "footer ";
   grid-template-rows: auto 1fr auto;
   height: 100vh;
-}
-@media screen and (min-width: 1024px) {
-  #root {
-    grid-template-areas: " . navbar ." "  . main .  " "footer footer footer ";
-    grid-template-columns: 1fr 1240px 1fr;
-  }
 }/*# sourceMappingURL=common.css.map */
