@@ -28,7 +28,8 @@ export default function Home() {
                     des développeurs acheter le nom de domaine pour des clients et ne pas les restituer si ils ne voulaient pas poursuivre leur partenariat par exemple.
                     Je peux vous aider dans vos démarches.
                 </p>
-                <p>N'éhisitez surtout pas à prendre contact avec moi afin de discuter de votre projet.</p>
+                <p>Chaque projet est différent et ne sera pas appréhendé de la même mainère , c'est pourquoi, je vous propose
+                    de prendre contact avec moi afin qu'on en discute.</p>
             </div>
 
         </main>
