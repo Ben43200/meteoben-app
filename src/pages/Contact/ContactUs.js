@@ -50,7 +50,7 @@ export const ContactUs = () => {
             )
             .then(
                 (result) => {
-                    alert('message sent successfully...');
+                    alert('Merci pour votre message, il sera traité dans les plus brefs délais...');
                     console.log(result.text);
                 },
                 (error) => {
