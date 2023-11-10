@@ -12,8 +12,10 @@ export default function Home() {
     return (<div>
         <Navbar />
         <main>
-            <h1>Meteoben</h1>
-            <h2>Développeur Web en biovallée de la Drôme</h2>
+            <div className="title-container">
+                <h1>Meteoben</h1>
+                <h2>Développeur Web en biovallée de la Drôme</h2>
+            </div>
             <div className="main-container">
                 <p>Bienvenue sur mon site</p>
                 <p>Je me présente, je m'appelle Benjamin, j'ai suivi une formation de développeur web pendant laquelle j'ai eu à réaliser différents projets et que j'ai terminée avec succès.
