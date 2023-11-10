@@ -1,74 +1,76 @@
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+html,
+body {
+  background: #f1f1f1;
+  font-family: "Merriweather", sans-serif;
+  padding: 1em;
 }
 
-.form {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
+h1 {
+  text-align: center;
+  color: #a8a8a8;
 }
 
-label {
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 10px;
-  margin-bottom: 5px;
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
 }
 
-input {
-  padding: 5px;
-  font-size: 16px;
-  border-width: 1px;
-  border-color: #cccccc;
-  background-color: #ffffff;
-  color: #000000;
-  border-style: solid;
-  border-radius: 0px;
-  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+input,
+textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: "Merriweather", sans-serif;
+  resize: none;
+}
+
+#input-submit {
+  color: white;
+  background: #e74c3c;
+  cursor: pointer;
+}
+
+#input-submit:hover {
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 textarea {
-  padding: 5px;
-  font-size: 16px;
-  border-width: 1px;
-  border-color: #cccccc;
-  background-color: #ffffff;
-  color: #000000;
-  border-style: solid;
-  border-radius: 0px;
-  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+  height: 126px;
 }
 
-input:focus {
-  outline: none;
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
 }
 
-textarea:focus {
-  outline: none;
+.right {
+  width: 50%;
 }
 
-button {
-  margin-top: 10px;
-  background-color: #44c767;
-  border-radius: 5px;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 14px;
-  padding: 13px 31px;
-  text-decoration: none;
+.left {
+  margin-right: 2%;
 }
 
-button:hover {
-  background-color: #5cbf2a;
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
 }
 
-button:active {
-  position: relative;
-  outline: none;
-  top: 1px;
+.cf:after {
+  clear: both;
 }/*# sourceMappingURL=contactus.css.map */
