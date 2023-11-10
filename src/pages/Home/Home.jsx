@@ -6,7 +6,7 @@ import React from "react";
 import Navbar from "../../components/NavBar";
 import './home.scss'
 // import Footer from "../components/Footer";
-
+import background from "../../compress-background.webp"
 
 export default function Home() {
     return (<div>
@@ -15,6 +15,7 @@ export default function Home() {
             <div className="title-container">
                 <h1>Meteoben</h1>
                 <h2>Développeur Web en biovallée de la Drôme</h2>
+                <img src={background} alt="background" className="fond-home" />
             </div>
             <div className="main-container">
                 <p>Bienvenue sur mon site</p>

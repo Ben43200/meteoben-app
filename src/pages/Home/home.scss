@@ -1,3 +1,6 @@
+@import "../../css/mixinsandfunctions.scss";
+@import "../../css/variables.scss";
+
 .main-container {
   border: 2px solid black;
   padding: 5px;
@@ -14,9 +17,29 @@ h1 {
 }
 
 .title-container {
-  background-image: url("../../compress-background.webp");
-  background-repeat: no-repeat;
   box-shadow: 10px 5px 5px grey;
   padding: 0px 4px;
-  background-size: cover;
+  grid-template-areas: "content";
+  // border: 2px solid black;
+}
+
+.title-container img {
+  grid-area: content;
+  border-radius: 1.5rem;
+  // opacity: 0.55;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+
+  // height: 111px;
+  height: 100%;
+  border-radius: 10px;
+  @include media(tablet) {
+    // border-radius: 25px;
+    height: 140px;
+  }
+  @include media(desktop) {
+    // border-radius: 25px;
+    height: 200px;
+  }
 }
