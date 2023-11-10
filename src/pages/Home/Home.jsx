@@ -12,8 +12,10 @@ export default function Home() {
     return (<div>
         <Navbar />
         <main>
+            <h1>Meteoben</h1>
+
             <div className="title-container">
-                <h1>Meteoben</h1>
+                {/* <h1>Meteoben</h1> */}
                 <h2>Développeur Web en biovallée de la Drôme</h2>
                 <img src={background} alt="background" className="fond-home" />
             </div>
