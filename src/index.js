@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./pages/Home/Home";
 import Error from "./pages/Error/Error";
 import Footer from "./components/Footer";
+import { ContactUs } from "./pages/Contact/ContactUs"
 
 import "./css/common.scss";
 
@@ -16,6 +17,8 @@ root.render(
 
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/contact" element={<ContactUs />} />
+
       <Route path="*" element={<Error />} />
 
     </Routes>
