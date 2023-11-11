@@ -20,6 +20,10 @@ body {
 }
 
 #root {
+  //config flex layout
+  // display: flex;
+  // flex-direction: column;
+
   display: grid;
   grid-template-areas:
     "navbar"

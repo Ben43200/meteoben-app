@@ -4,9 +4,9 @@
 // import React, { useEffect, useState } from "react";
 import React from "react";
 import Navbar from "../../components/NavBar";
-import './home.scss'
+import './home.scss';
 // import Footer from "../components/Footer";
-import background from "../../compress-background.webp"
+import background from "../../compress-background.webp";
 
 export default function Home() {
     return (<div>
