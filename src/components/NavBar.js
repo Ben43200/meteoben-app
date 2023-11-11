@@ -7,6 +7,8 @@ import React from 'react'
 
 import './navbar.scss'
 import { Squash as Hamburger } from 'hamburger-react'
+// import { Squeeze as Hamburger } from 'hamburger-react'
+
 
 const Navbar = () => {
     const [showNavbar, setShowNavbar] = useState(false)
