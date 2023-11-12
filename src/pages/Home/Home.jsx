@@ -11,6 +11,7 @@ import BackToUp from "../../components/BackToUp/BackToUp";
 
 export default function Home() {
     return (<div>
+
         <Navbar />
         <main>
             {/* <h1>Meteoben</h1> */}

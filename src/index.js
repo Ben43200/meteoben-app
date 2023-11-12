@@ -7,6 +7,8 @@ import Footer from "./components/Footer";
 import ContactUs from "./pages/Contact/ContactUs";
 import Examples from "./pages/Examples/Examples";
 import ScrollToTop from "././components/ScrollToTop/ScrollToTup";
+import { Helmet } from "react-helmet";
+
 
 import "./css/common.scss";
 
@@ -17,6 +19,13 @@ root.render(
   // <React.StrictMode>
   <Router>
     <ScrollToTop />
+    <Helmet>
+      <title>Music Website</title>
+      <meta
+        name="description"
+        content="Get stats about every music from every movie"
+      />
+    </Helmet>
 
     <Routes>
       <Route path="/" element={<Home />} />
