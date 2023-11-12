@@ -1,9 +1,5 @@
-// form {
-//   // max-width: 600px;
-//   text-align: center;
-//   margin: 20px auto;
-// }
-
+@import "../../css/mixinsandfunctions.scss";
+@import "../../css/variables.scss";
 input,
 textarea {
   border: 0;
@@ -11,11 +7,14 @@ textarea {
   padding: 10px 0px;
   border-radius: 8px;
   display: block;
-  width: 100%;
+  width: 20rem;
   margin-top: 1em;
   font-family: "Merriweather", sans-serif;
   resize: none;
-  width: 500px;
+
+  @include media(desktop) {
+    width: 500px;
+  }
 }
 
 #input-submit {
