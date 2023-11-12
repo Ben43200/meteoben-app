@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contactus.scss"
-
+// import background from "../../compress-background.webp";
+import Navbar from '../../components/NavBar';
 // export const ContactUs = () => {
 //     const form = useRef();
 //     const sendEmail = (e) => {
@@ -61,6 +62,13 @@ export const ContactUs = () => {
 
     return (
         <div>
+            <Navbar />
+
+            <div className="title-container">
+                <h1>Meteoben</h1>
+                <h2>Développeur Web en biovallée de la Drôme</h2>
+                {/* <img src={background} alt="background" className="fond-home" /> */}
+            </div>
             <h1>Contact Form</h1>
             <form className='cf' ref={form} onSubmit={sendEmail}>
                 <div className='half left cf'>
