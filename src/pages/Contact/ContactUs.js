@@ -70,6 +70,14 @@ export const ContactUs = () => {
                 <div className="title-container">
                     <h1>Meteoben</h1>
                     <h2>Développeur Web en biovallée de la Drôme</h2>
+                    <img alt=''
+                        src={require('../../compress-image-large.webp')}
+                        srcSet={`
+    ${require('../../compress-image-small.jpg')} 320w, 
+    ${require('../../compress-image-medium.jpg')} 680w,
+    ${require('../../compress-image-large.webp')} 1024w
+
+  `} />
                 </div>
                 <h1>Formulaire de contact</h1>
                 <form className='cf' ref={form} onSubmit={sendEmail}>

@@ -8,9 +8,9 @@ import './home.scss';
 // import Footer from "../components/Footer";
 // import background from "../../compress-background.webp";
 import BackToUp from "../../components/BackToUp/BackToUp";
-const imageSmall = "../../compress-image-small.jpg"
-const imageMedium = "../../compress-image-medium.jpg"
-const imageLarge = "../../compress-image-large.webp"
+// const imageSmall = "../../compress-image-small.jpg"
+// const imageMedium = "../../compress-image-medium.jpg"
+// const imageLarge = "../../compress-image-large.webp"
 export default function Home() {
     return (<div>
 
