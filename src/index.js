@@ -6,6 +6,7 @@ import Error from "./pages/Error/Error";
 import Footer from "./components/Footer";
 import ContactUs from "./pages/Contact/ContactUs";
 import Examples from "./pages/Examples/Examples";
+import ScrollToTop from "././components/ScrollToTop/ScrollToTup";
 
 import "./css/common.scss";
 
@@ -15,6 +16,7 @@ root.render(
 
   // <React.StrictMode>
   <Router>
+    <ScrollToTop />
 
     <Routes>
       <Route path="/" element={<Home />} />
