@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import background from "../../compress-background.webp";
 import Kasalight from "../../Kasalight.png"
 import "./examples.scss"
+import BackToUp from "../../components/BackToUp/BackToUp";
+
 
 
 
@@ -38,6 +40,7 @@ export default function Examples() {
             <p>Une autre réalisation encore plus complexe serait par exemple l'ajout de ce qu'on appelle un "backend" en développement, qui est en fait une partie serveur, on peut ainsi imaginer
                 que les utilisateurs ou abonnés à qui on donnera des droits puissent se connecter à l'application et créer eux même des annonces de logements ici.</p>
         </main>
+        <BackToUp />
     </div>
 
     );

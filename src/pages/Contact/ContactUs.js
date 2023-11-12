@@ -4,6 +4,8 @@ import "./contactus.scss"
 // import background from "../../compress-background.webp";
 import Navbar from '../../components/NavBar';
 import background from "../../compress-background.webp";
+import BackToUp from "../../components/BackToUp/BackToUp";
+
 
 // export const ContactUs = () => {
 //     const form = useRef();
@@ -83,7 +85,7 @@ export const ContactUs = () => {
                     <input type='submit' value='Submit' id='input-submit' />
                 </form>
             </main>
-
+            <BackToUp />
         </div>
     );
     // }
