@@ -74,8 +74,8 @@ export const ContactUs = () => {
                 <h1>Contact Form</h1>
                 <form className='cf' ref={form} onSubmit={sendEmail}>
                     <div className='half left cf'>
-                        <input type='text' placeholder='Name' name='user_name' />
-                        <input type='email' placeholder='Email address' name='user_email' />
+                        <input type='text' placeholder='Nom' name='user_name' />
+                        <input type='email' placeholder='Adresse email' name='user_email' />
                     </div>
                     <div className='half right cf'>
                         <textarea name='message' type='text' placeholder='Message'></textarea>

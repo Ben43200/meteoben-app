@@ -4,32 +4,32 @@
 //   margin: 20px auto;
 // }
 
-// input,
-// textarea {
-//   border: 0;
-//   outline: 0;
-//   padding: 1em;
-//   border-radius: 8px;
-//   display: block;
-//   width: 100%;
-//   margin-top: 1em;
-//   font-family: "Merriweather", sans-serif;
-//   resize: none;
-// }
+input,
+textarea {
+  border: 0;
+  outline: 0;
+  padding: 10px 0px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: "Merriweather", sans-serif;
+  resize: none;
+}
 
-// #input-submit {
-//   color: white;
-//   background: #e74c3c;
-//   cursor: pointer;
-// }
+#input-submit {
+  color: white;
+  background: #e74c3c;
+  cursor: pointer;
+}
 
-// #input-submit:hover {
-//   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
-// }
+#input-submit:hover {
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
 
-// textarea {
-//   height: 126px;
-// }
+textarea {
+  height: 126px;
+}
 
 // .half {
 //   float: left;
