@@ -29,7 +29,7 @@ export default function Examples() {
             <p>Cliquez sur la photo du site Kasa afin d'accéder au projet, vous pouvez naviguer en cliquant sur les différentes annonces</p>
 
             <div className="example-container">
-                <Link to="https://unrivaled-choux-4f6a02.netlify.app/"><img src={Kasalight} alt="background" className="Kasa-pic" /></Link>
+                <Link to="https://unrivaled-choux-4f6a02.netlify.app/" target="_blank"><img src={Kasalight} alt="background" className="Kasa-pic" /></Link>
             </div>
             <p>Ce site réalisé à la fin de ma formation, est plus exactement une application web qui tourne sur react, react est une puissante librairie de code qui a été
                 inventée et utiliséé par Facebook, mais également par Airbnb ou encore Netflix.Cette librairie utilise une structure de composant.
