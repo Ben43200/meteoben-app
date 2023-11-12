@@ -73,14 +73,14 @@ export const ContactUs = () => {
                     <h2>Développeur Web en biovallée de la Drôme</h2>
                     <img src={background} alt="background" className="fond-home" />
                 </div>
-                <h1>Contact Form</h1>
+                <h1>Formulaire de contact</h1>
                 <form className='cf' ref={form} onSubmit={sendEmail}>
                     <div className='half left cf'>
                         <input type='text' placeholder='Nom' name='user_name' />
                         <input type='email' placeholder='Adresse email' name='user_email' />
                     </div>
                     <div className='half right cf'>
-                        <textarea name='message' type='text' placeholder='Message'></textarea>
+                        <textarea name='message' type='text' placeholder='Parlez-moi de votre projet'></textarea>
                     </div>
                     <input type='submit' value='Submit' id='input-submit' />
                 </form>
