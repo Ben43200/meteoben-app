@@ -7,6 +7,7 @@ import Navbar from "../../components/NavBar";
 import './home.scss';
 // import Footer from "../components/Footer";
 import background from "../../compress-background.webp";
+import BackToUp from "../../components/BackToUp/BackToUp";
 
 export default function Home() {
     return (<div>
@@ -38,9 +39,11 @@ export default function Home() {
                 <p>Chaque projet est différent et sera adapté à vos souhaits, il y a des projets simples et d'autres qui demandent beaucoup plus de travail,
                     c'est pourquoi, je vous propose
                     dès à présent de prendre contact avec moi afin qu'on en discute.</p>
+
             </div>
 
         </main>
+        <BackToUp />
     </div>
     )
 }
