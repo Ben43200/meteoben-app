@@ -6,9 +6,11 @@ import React from "react";
 import Navbar from "../../components/NavBar";
 import './home.scss';
 // import Footer from "../components/Footer";
-import background from "../../compress-background.webp";
+// import background from "../../compress-background.webp";
 import BackToUp from "../../components/BackToUp/BackToUp";
-
+const imageSmall = "../../compress-image-small.jpg"
+const imageMedium = "../../compress-image-medium.jpg"
+const imageLarge = "../../compress-image-large.webp"
 export default function Home() {
     return (<div>
 
@@ -19,7 +21,15 @@ export default function Home() {
             <div className="title-container">
                 <h1>Meteoben</h1>
                 <h2>Développeur Web en biovallée de la Drôme</h2>
-                <img src={background} alt="background" className="fond-home" />
+                {/* <img src={background} alt="background" className="fond-home" /> */}
+                <img alt=''
+                    src={require('../../compress-image-large.webp')}
+                    srcSet={`
+    ${require('../../compress-image-small.jpg')} 320w, 
+    ${require('../../compress-image-medium.jpg')} 680w,
+    ${require('../../compress-image-large.webp')} 1024w
+
+  `} />
             </div>
             <div className="main-container">
                 <p>Bienvenue sur mon site</p>

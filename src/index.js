@@ -20,10 +20,10 @@ root.render(
   <Router>
     <ScrollToTop />
     <Helmet>
-      <title>Music Website</title>
+      <title>Meteoben Développeur Web</title>
       <meta
         name="description"
-        content="Get stats about every music from every movie"
+        content="Développeur et créateur de site web en biovallée de la Drôme"
       />
     </Helmet>
 

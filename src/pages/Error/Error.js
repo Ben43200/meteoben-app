@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import "./error.scss";
-import background from "../../compress-background.webp";
 
 
 export default function Error() {
