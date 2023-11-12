@@ -26,6 +26,7 @@ export default function Examples() {
 
             </div>
             <h3>Projet Réalisé en fin de formation</h3>
+            <p>Cliquez sur la photo du site Kasa afin d'accéder au projet, vous pouvez naviguer en cliquant sur les différentes annonces</p>
 
             <div className="example-container">
                 <Link to="https://unrivaled-choux-4f6a02.netlify.app/"><img src={Kasalight} alt="background" className="Kasa-pic" /></Link>
