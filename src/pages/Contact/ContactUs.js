@@ -63,23 +63,25 @@ export const ContactUs = () => {
     return (
         <div>
             <Navbar />
+            <main>
+                <div className="title-container">
+                    <h1>Meteoben</h1>
+                    <h2>Développeur Web en biovallée de la Drôme</h2>
+                    {/* {/* <img src={background} alt="background" className="fond-home" /> */}
+                </div>
+                <h1>Contact Form</h1>
+                <form className='cf' ref={form} onSubmit={sendEmail}>
+                    <div className='half left cf'>
+                        <input type='text' placeholder='Name' name='user_name' />
+                        <input type='email' placeholder='Email address' name='user_email' />
+                    </div>
+                    <div className='half right cf'>
+                        <textarea name='message' type='text' placeholder='Message'></textarea>
+                    </div>
+                    <input type='submit' value='Submit' id='input-submit' />
+                </form>
+            </main>
 
-            <div className="title-container">
-                <h1>Meteoben</h1>
-                <h2>Développeur Web en biovallée de la Drôme</h2>
-                {/* <img src={background} alt="background" className="fond-home" /> */}
-            </div>
-            <h1>Contact Form</h1>
-            <form className='cf' ref={form} onSubmit={sendEmail}>
-                <div className='half left cf'>
-                    <input type='text' placeholder='Name' name='user_name' />
-                    <input type='email' placeholder='Email address' name='user_email' />
-                </div>
-                <div className='half right cf'>
-                    <textarea name='message' type='text' placeholder='Message'></textarea>
-                </div>
-                <input type='submit' value='Submit' id='input-submit' />
-            </form>
         </div>
     );
     // }
