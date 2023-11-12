@@ -75,6 +75,7 @@ export const ContactUs = () => {
                 </div>
                 <h1>Formulaire de contact</h1>
                 <form className='cf' ref={form} onSubmit={sendEmail}>
+
                     <div className='half left cf'>
                         <input type='text' placeholder='Nom' name='user_name' />
                         <input type='email' placeholder='Adresse email' name='user_email' />
