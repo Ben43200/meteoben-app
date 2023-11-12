@@ -5,6 +5,9 @@ body {
   margin: 0;
   padding: 0px 4px;
   text-align: justify;
+  @include media(desktop) {
+    padding: 0px;
+  }
 }
 
 #root > header {
