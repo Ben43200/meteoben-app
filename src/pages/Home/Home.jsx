@@ -25,8 +25,8 @@ export default function Home() {
                 <img alt=''
                     src={require('../../compress-image-large.webp')}
                     srcSet={`
-    ${require('../../compress-image-small.jpg')} 320w, 
-    ${require('../../compress-image-medium.jpg')} 680w,
+    ${require('../../compress-background-small.webp')} 320w, 
+    ${require('../../compress-background-medium.webp')} 680w,
     ${require('../../compress-image-large.webp')} 1024w
 
   `} />
