@@ -84,6 +84,7 @@ export const ContactUs = () => {
 
                     <div className='half left cf'>
                         <input type='text' placeholder='Nom' name='user_name' />
+                        <input type='text' placeholder='Prénom' name='first_name' />
                         <input type='email' placeholder='Adresse email' name='user_email' />
                     </div>
                     <div className='half right cf'>
