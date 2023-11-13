@@ -25,7 +25,7 @@ ${require('../compress-background-small.webp')} 320w,
 ${require('../compress-background-medium.webp')} 680w,
 ${require('../compress-image-large.webp')} 1024w
 
-`} />
+`} loading="lazy" />
 
         </div>
     </div>
