@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Kasalight from "../../Kasalight.png"
 import "./examples.scss"
 import BackToUp from "../../components/BackToUp/BackToUp";
+import Header from "../../components/Header";
 
 
 
@@ -17,9 +18,10 @@ import BackToUp from "../../components/BackToUp/BackToUp";
 export default function Examples() {
     return (<div>
         <Navbar />
+        <Header />
         <main>
 
-            <div className="title-container">
+            {/* <div className="title-container">
                 <h1>Meteoben</h1>
                 <h2>Développeur Web en biovallée de la Drôme</h2>
                 <img alt=''
@@ -30,7 +32,7 @@ export default function Examples() {
                     ${require('../../compress-image-large.webp')} 1024w
 
   `} />
-            </div>
+            </div> */}
             <h3>Projet Réalisé en fin de formation</h3>
             <p className="indications">Cliquez sur la photo du site Kasa afin d'accéder au projet, vous pouvez naviguer en cliquant sur les différentes annonces</p>
 

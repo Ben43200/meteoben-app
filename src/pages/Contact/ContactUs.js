@@ -4,6 +4,7 @@ import "./contactus.scss"
 // import background from "../../compress-background.webp";
 import Navbar from '../../components/NavBar';
 import BackToUp from "../../components/BackToUp/BackToUp";
+import Header from '../../components/Header';
 
 
 // export const ContactUs = () => {
@@ -66,19 +67,9 @@ export const ContactUs = () => {
     return (
         <div>
             <Navbar />
+            <Header />
             <main>
-                <div className="title-container">
-                    <h1>Meteoben</h1>
-                    <h2>Développeur Web en biovallée de la Drôme</h2>
-                    <img alt=''
-                        src={require('../../compress-image-large.webp')}
-                        srcSet={`
-                        ${require('../../compress-background-small.webp')} 320w, 
-                        ${require('../../compress-background-medium.webp')} 680w,
-                        ${require('../../compress-image-large.webp')} 1024w
 
-  `} />
-                </div>
                 <h1>Formulaire de contact</h1>
                 <form className='cf' ref={form} onSubmit={sendEmail}>
 

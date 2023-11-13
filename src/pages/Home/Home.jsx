@@ -8,6 +8,7 @@ import './home.scss';
 // import Footer from "../components/Footer";
 // import background from "../../compress-background.webp";
 import BackToUp from "../../components/BackToUp/BackToUp";
+import Header from "../../components/Header";
 // const imageSmall = "../../compress-image-small.jpg"
 // const imageMedium = "../../compress-image-medium.jpg"
 // const imageLarge = "../../compress-image-large.webp"
@@ -15,22 +16,9 @@ export default function Home() {
     return (<div>
 
         <Navbar />
+        <Header />
         <main>
-            {/* <h1>Meteoben</h1> */}
 
-            <div className="title-container">
-                <h1>Meteoben</h1>
-                <h2>Développeur Web en biovallée de la Drôme</h2>
-                {/* <img src={background} alt="background" className="fond-home" /> */}
-                <img alt=''
-                    src={require('../../compress-image-large.webp')}
-                    srcSet={`
-    ${require('../../compress-background-small.webp')} 320w, 
-    ${require('../../compress-background-medium.webp')} 680w,
-    ${require('../../compress-image-large.webp')} 1024w
-
-  `} />
-            </div>
             <div className="main-container">
                 <p>Bienvenue sur mon site</p>
                 <p>Je me présente, je m'appelle Benjamin, j'ai suivi une formation de développeur web pendant laquelle j'ai eu à réaliser différents projets et que j'ai terminée avec succès.
