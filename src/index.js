@@ -23,7 +23,7 @@ root.render(
       <title>Meteoben Développeur Web</title>
       <meta
         name="description"
-        content="Développeur et créateur de site web en biovallée de la Drôme"
+        content="Développeur et créateur de site web en Vallée de la Drôme"
       />
     </Helmet>
 
