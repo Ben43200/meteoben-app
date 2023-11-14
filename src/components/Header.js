@@ -17,7 +17,7 @@ export default function Header() {
         <header>
             <div className="title-container">
                 <h1>Meteoben</h1>
-                <h2>Développeur Web en biovallée de la Drôme</h2>
+                <h2>Développeur Web en Vallée de la Drôme</h2>
                 {/* <img src={background} alt="background" className="fond-home" /> */}
                 <img alt=''
                     src={require('../compress-image-large.webp')}
