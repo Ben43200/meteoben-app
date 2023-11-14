@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 // import { ReactComponent as Brand } from '../logo.svg'
 // import { logo as Brand } from '../logo.jpg'
 import React from 'react'
-import logo from '../logo-png.png'
+import logo from '../logo-png-mini2.png'
 
 import './navbar.scss'
 import { Squash as Hamburger } from 'hamburger-react'

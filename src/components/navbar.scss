@@ -37,6 +37,11 @@ header {
     // height: 140px;
     width: 7%;
   }
+  @include media(laptop-desktop) {
+    // border-radius: 25px;
+    // height: 140px;
+    width: 6%;
+  }
   // padding-top: 10px;
 }
 
