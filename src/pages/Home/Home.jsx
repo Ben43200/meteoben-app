@@ -30,9 +30,8 @@ export default function Home() {
                     Les gens non avertis ne le savent pas forcément, mais le référencement est beaucoup plus efficace avec une version mobile en parallèle, car la plupart des gens utilisent
                     leur mobile pour naviguer sur internet maintenant, et ça, google l'a bien compris.
                     Je me charge de vous louer un espace sur mon serveur pro pour y faire tourner votre site.
-                    Je vous laisse de votre côté réserver un nom de domaine si vous n'en avez pas déjà un, vous restez ainsi propriétaire de votre nom de domaine.J'ai déjà vu par le passé
-                    des développeurs acheter le nom de domaine pour des clients et ne pas le restituer si ils ne voulaient pas poursuivre leur partenariat par exemple.
-                    Je peux vous aider dans vos démarches.
+                    Je vous laisse de votre côté réserver un nom de domaine si vous n'en avez pas déjà un,
+                    je peux vous aider dans vos démarches.
                 </p>
                 <p>Votre site sera unique, il sera fait à l'aide de lignes de code uniquement, je n'utilise pas d'outils tel que Wordpress par exemple.</p>
                 <p>Chaque projet est différent et sera adapté à vos souhaits, il y a des projets simples et d'autres qui demandent beaucoup plus de travail,
