@@ -5,7 +5,7 @@ import Home from "./pages/Home/Home";
 import Error from "./pages/Error/Error";
 import Footer from "./components/Footer";
 import ContactUs from "./pages/Contact/ContactUs";
-import Examples from "./pages/Examples/Examples";
+// import Examples from "./pages/Examples/Examples";
 import ScrollToTop from "././components/ScrollToTop/ScrollToTup";
 import { Helmet } from "react-helmet";
 
@@ -17,6 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 
   // <React.StrictMode>
+ 
   <Router>
     <ScrollToTop />
     <Helmet>
@@ -30,7 +31,7 @@ root.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/contact" element={<ContactUs />} />
-      <Route path="/examples" element={<Examples />} />
+      {/* <Route path="/examples" element={<Examples />} /> */}
       <Route path="*" element={<Error />} />
 
     </Routes>

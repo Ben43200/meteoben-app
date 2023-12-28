@@ -3,6 +3,11 @@ body {
   padding: 0px 4px;
   text-align: justify;
 }
+@media screen and (min-width: 1024px) {
+  body {
+    padding: 0px;
+  }
+}
 
 #root > header {
   grid-area: navbar;
