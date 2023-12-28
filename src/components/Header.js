@@ -14,7 +14,7 @@ import React from "react";
 
 export default function Header() {
     return (
-        <header>
+        // <header>
             <div className="title-container">
                 <h1>Meteoben</h1>
                 <h2>Développeur Web en Vallée de la Drôme</h2>
@@ -29,7 +29,7 @@ ${require('../compress-image-large.webp')} 1024w
 `} /> */}
 
             </div>
-        </header>
+        // </header>
 
     )
 
