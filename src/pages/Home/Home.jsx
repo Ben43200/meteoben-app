@@ -18,6 +18,7 @@ export default function Home() {
         <Navbar />
         <Header />
         <main>
+        <h2 className="construct-info">Site en cours d'élaboration</h2>
 
             <div className="main-container">
                 <p>Bienvenue sur mon site</p>
